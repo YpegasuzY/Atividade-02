@@ -40,6 +40,11 @@ header{
     cursor: pointer;
 }
 
+#navegacao nav a button:hover{
+    background-color: rgba(95, 216, 95, 0.836);
+    transition: 0.8s;
+}
+
 .sessaoUm{
     background-image: url(img/Sessão\ 1.jpg);
     display: flex;
@@ -53,9 +58,11 @@ header{
     margin-top: -5.4rem;
     align-items: center;
 }
+
 .sessaoUm div{
     margin-top: -15rem;
 }
+
 .sessaoUm div h1{
     font-size: 6rem;
     font-weight: 400;
@@ -68,16 +75,12 @@ header{
     margin: 20px auto;
 }
 
-
 .lineDiv{
     border: 1px solid black;
     width: 30px;
     margin: 10px auto;
     margin-top: 50px;
 }
-
-
-
 
 .sessaoDois{
     padding: 5rem;
@@ -107,17 +110,12 @@ header{
     font-weight: 600;
 }
 
-
-
 #sessaoTres{
     display: flex;
     gap: 1rem;
 }
 
 
-.divImgTres{
-    
-}
 .divImgTres img{
     width: 50vw;
     height: 100%;
@@ -144,6 +142,20 @@ header{
     padding: 6rem;
     background-color: rgba(153, 190, 153, 0.315);
     text-align: center;
+    
+}
+
+#email{
+    padding: 0.8rem;
+    margin-top: 30px;    
+    width: 20rem;
+}
+
+#botao{
+    padding: 1rem;
+    background-color: transparent;
+    width: 10rem;
+    cursor: pointer;
 }
 
 footer{
