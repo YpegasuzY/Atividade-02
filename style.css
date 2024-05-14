@@ -41,19 +41,20 @@ header{
 }
 
 .sessaoUm{
-    background-image: url(img/Sessão\ 1.png);
+    background-image: url(img/Sessão\ 1.jpg);
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
+    margin-top: -5.4rem;
     align-items: center;
 }
 .sessaoUm div{
-    margin-top: -20rem;
+    margin-top: -15rem;
 }
 .sessaoUm div h1{
     font-size: 6rem;
@@ -61,20 +62,19 @@ header{
 }
 
 .line{
-    height: 5px;
-    background-color: black;
+    border: 2px solid black;
     border-radius: 10px;
     width: 50px;
     margin: 20px auto;
 }
 
 
-
-
-
-
-
-
+.lineDiv{
+    border: 1px solid black;
+    width: 30px;
+    margin: 10px auto;
+    margin-top: 50px;
+}
 
 
 
@@ -82,6 +82,7 @@ header{
 .sessaoDois{
     padding: 5rem;
     text-align: center;
+    background-color: rgba(153, 190, 153, 0.315);
 }
 
 #chefinho{
@@ -90,28 +91,49 @@ header{
     justify-content: center;
 }
 
-#chefinho div img{
-    width: 22rem;
-    height: 17rem;
+#chefinho div{
+    width: 20rem;
+    height: 24rem;
+    background-color: white;
+    box-shadow: 0px 3px 10px black;
 }
+
+#chefinho div img{
+    width: 100%;
+    height: 50%;
+}
+
+#chefinho div p{
+    font-weight: 600;
+}
+
 
 
 #sessaoTres{
     display: flex;
-    align-items: center;
+    gap: 1rem;
 }
 
-#sessaoTres img{
-    width: 49vw;
+
+.divImgTres{
+    
+}
+.divImgTres img{
+    width: 50vw;
+    height: 100%;
 }
 
 #divTextTres{
-    padding: 3rem;
+    width: 40vw;
+    padding: 2rem;
 }
 #divTextTres h2 {
+    margin-top: 50px;
      text-align: center;
 }
 #divTextTres p{
+    margin: 0 60px;
+    flex-wrap: wrap;
     text-align: justify;
 }
 
@@ -119,8 +141,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem;
-    background-color: rgb(253, 253, 218);
+    padding: 6rem;
+    background-color: rgba(153, 190, 153, 0.315);
+    text-align: center;
 }
 
 footer{
