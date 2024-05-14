@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    background-color: transparent;
+    align-items: center;
+}
+
+#imgLogo img{
+    height: 40px;
+}
+
+#navegacao nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#navegacao nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+#navegacao nav ul li a{
+    color: black;
+}
+
+#navegacao nav a button{
+    padding: 7px;
+    background-color: transparent;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.sessaoUm{
+    background-image: url(img/Sessão\ 1.png);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    align-items: center;
+}
+.sessaoUm div{
+    margin-top: -20rem;
+}
+.sessaoUm div h1{
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.line{
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    width: 50px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sessaoDois{
+    padding: 5rem;
+    text-align: center;
+}
+
+#chefinho{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#chefinho div img{
+    width: 22rem;
+    height: 17rem;
+}
+
+
+#sessaoTres{
+    display: flex;
+    align-items: center;
+}
+
+#sessaoTres img{
+    width: 49vw;
+}
+
+#divTextTres{
+    padding: 3rem;
+}
+#divTextTres h2 {
+     text-align: center;
+}
+#divTextTres p{
+    text-align: justify;
+}
+
+#inscricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: rgb(253, 253, 218);
+}
+
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div nav ul{
+    display: flex;
+}
+
+#divIcon nav ul{
+    gap: 5px;
+}
+#divIcon nav ul li a i{
+    color: white;
+    background-color: gray;
+    padding: 0.6rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#divTextFooter nav ul{
+    gap: 3rem;
+}
+
+
+
+/* body {
+    --top-color: orange;
+    --bottom-color: yellow;
+    --meu-gradient: linear-gradient(
+        var(--top-color),
+        var(--bottom-color)
+        ); */
